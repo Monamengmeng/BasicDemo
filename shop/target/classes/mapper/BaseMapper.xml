@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dongdong.mapper.BaseMapper">
+
+    <!--    id:表名   type:对应数据库中的实体类-->
+    <resultMap id="tbl_employee" type="com.dongdong.entity.Employee">
+
+<!--        可以加类型  如：jdbcType="VARCHAR"  -->
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="last_name" property="last_name" jdbcType="VARCHAR"/>
+        <result column="gender" property="gender" jdbcType="CHAR"/>
+        <result column="email" property="email" jdbcType="VARCHAR"/>
+    </resultMap>
+    <!--   简单查询  id:对应namespace中的方法名  ,resultType:sql 语句的返回值 （class类型，或者int等） -->
+    <select id="query" parameterType="int" resultType="com.dongdong.entity.Employee">
+        select id,last_name,gender,email
+        from
+        tbl_employee
+    </select>
+    <insert id="addUser" parameterType="com.dongdong.entity.Employee">
+        insert into tbl_employee(id,last_name,gender,email)
+        values
+        (#{id},#{last_name},#{gender},#{email});
+    </insert>
+    <select id="queriById" resultMap="tbl_employee">
+        select * from tbl_employee where id = #{id}
+    </select>
+    <update id="update">
+        update tbl_employee set last_name=#{last_name},gender=#{gender},email=#{email} where id=#{id};
+    </update>
+
+    <delete id="deleteById">
+        delete from tbl_employee where id = #{id}
+    </delete>
+
+
+</mapper>

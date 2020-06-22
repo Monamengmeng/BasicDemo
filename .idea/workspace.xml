@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b68fe639-87e3-4756-a0c5-7ff5cdb7d746" name="Default Changelist" comment="mybatis、代理、反射等demo练习">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e4184529-d9d7-4ba2-972a-49e6d071506f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e4184529-d9d7-4ba2-972a-49e6d071506f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shop-parent-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__io_dubbo_springboot_spring_boot_starter_dubbo_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_spring_aop_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_spring_beans_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_spring_context_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_spring_core_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_spring_expression_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_spring_web_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/src/main/java/com/dongdong/api/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/target/classes/com/dongdong/api/TestInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-provider-api/target/shop-provider-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__io_dubbo_springboot_spring_boot_starter_dubbo_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_spring_aop_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_spring_beans_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_spring_context_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_spring_core_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_spring_expression_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_spring_web_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/config/PrimaryDsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/controller/RestTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/controller/TestMapperController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/entity/FamilyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/entity/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/entity/ReflectActionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/entity/ReflectEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/exception/AjaxResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/exception/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/exception/ExceptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/exception/WebExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/mapper/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/ProxySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/SubjectFacadeCglib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/SubjectStaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/WorkInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/CglibApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/FamilyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/HashmapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/ProxyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/ProxyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/ReflectConstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/ReflectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/ReflectFrameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/ReflectMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/ReflectVariableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/ShopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/dubbo/dubbo-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/dubbo/dubbo-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/family.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/mapper/BaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/META-INF/shop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/config/DruidConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/config/PrimaryDsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/controller/RestTestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/controller/TestMapperController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/Article$ArticleBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/Employee$EmployeeBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/FamilyBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/ReflectActionEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/ReflectEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/exception/AjaxResponse$AjaxResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/exception/AjaxResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/exception/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/exception/EnumTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/exception/ExceptionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/exception/WebExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/mapper/BaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/service/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/service/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/service/impl/ProxySubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/service/impl/RealSubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/service/impl/SubjectFacadeCglib.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/service/impl/SubjectStaticFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/service/impl/TestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/service/impl/WorkInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/CglibApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/FamilyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/HashmapTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/LazySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/ProxyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/ProxyMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/ReflectConstructorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/ReflectDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/ReflectFrameTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/ReflectMethodTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/ReflectVariableTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/ShopApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/com/dongdong/shop/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/dubbo/dubbo-common.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/dubbo/dubbo-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/family.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/mapper/BaseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/classes/pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tbl_employee: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\JavaDemo\shop-parent-1\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHome" value="D:/Software/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Software\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bFr0o3l0sOZOEtuUI1JLCgz1jK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588056787227" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dongdong.shop" />
+      <recent name="com.dongdong.service.impl" />
+      <recent name="com.dongdong.controller" />
+      <recent name="com.dongdong.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\zengbo\workspace\shop-parent\shop\src\main\resources\mapper" />
+      <recent name="E:\Users\zengbo\workspace\shop-parent\shop\src\main\resources\dubbo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShopApplication (1)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashmapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dongdong.shop.HashmapTest" />
+      <module name="shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dongdong.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazySingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dongdong.shop.LazySingleton" />
+      <module name="shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dongdong.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectFrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dongdong.shop.ReflectFrameTest" />
+      <module name="shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dongdong.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dongdong.shop.ReflectMethodTest" />
+      <module name="shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dongdong.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectVariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dongdong.shop.ReflectVariableTest" />
+      <module name="shop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dongdong.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dongdong.shop.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dongdong.api.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ReflectVariableTest" />
+      <item itemvalue="Application.ReflectMethodTest" />
+      <item itemvalue="Application.ReflectFrameTest" />
+      <item itemvalue="Application.LazySingleton" />
+      <item itemvalue="Application.HashmapTest" />
+      <item itemvalue="Spring Boot.ShopApplication" />
+      <item itemvalue="Spring Boot.ShopApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReflectMethodTest" />
+        <item itemvalue="Application.HashmapTest" />
+        <item itemvalue="Application.LazySingleton" />
+        <item itemvalue="Application.ReflectVariableTest" />
+        <item itemvalue="Application.ReflectFrameTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b68fe639-87e3-4756-a0c5-7ff5cdb7d746" name="Default Changelist" comment="" />
+      <created>1588044763021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588044763021</updated>
+      <workItem from="1588044764816" duration="7421000" />
+      <workItem from="1588238463794" duration="11349000" />
+      <workItem from="1588253768629" duration="1056000" />
+      <workItem from="1588254879969" duration="893000" />
+      <workItem from="1588257847665" duration="156000" />
+      <workItem from="1588258030546" duration="704000" />
+      <workItem from="1588325974321" duration="709000" />
+      <workItem from="1590720522249" duration="3705000" />
+      <workItem from="1590977189216" duration="35273000" />
+      <workItem from="1591238973737" duration="657000" />
+      <workItem from="1591255337523" duration="1267000" />
+      <workItem from="1591279896617" duration="4007000" />
+      <workItem from="1591343532180" duration="6081000" />
+      <workItem from="1591410104818" duration="6406000" />
+      <workItem from="1591578507014" duration="13746000" />
+      <workItem from="1591669487057" duration="15331000" />
+      <workItem from="1591750506140" duration="17948000" />
+      <workItem from="1591843298800" duration="14444000" />
+      <workItem from="1591927791819" duration="8610000" />
+      <workItem from="1592193958514" duration="6166000" />
+      <workItem from="1592225583030" duration="155000" />
+      <workItem from="1592710885586" duration="5072000" />
+      <workItem from="1592729390182" duration="10558000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mybatis、代理、反射等demo练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis、代理、反射等demo练习" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591702094285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591702094285" />
+    <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591711199314">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591711199314" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1592225738745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592225738745" />
+    <state x="413" y="133" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592730884834">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="133" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1592730884834" />
+    <state x="399" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591700971546">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1591700971546" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591696597489">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1591696597489" />
+    <state x="355" y="59" width="717" height="595" key="#xdebugger.evaluate" timestamp="1591102255705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="355" y="59" width="717" height="595" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1591102255705" />
+    <state x="355" y="0" key="CommitChangelistDialog2" timestamp="1592808517908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="355" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592808517908" />
+    <state width="239" height="466" key="DebuggerActiveHint" timestamp="1591800269868">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="239" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1591800269868" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1592802671716">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592802671716" />
+    <state width="1323" height="282" key="GridCell.Tab.0.bottom" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.0.center" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.0.left" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.0.right" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.1.bottom" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.1.center" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.1.left" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.1.right" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.2.bottom" timestamp="1592733841555">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592733841555" />
+    <state width="1323" height="282" key="GridCell.Tab.2.center" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.2.left" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="1323" height="282" key="GridCell.Tab.2.right" timestamp="1592733841554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="282" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1592733841554" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1591086093596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1591086093596" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1591780005043">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1591780005043" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1592808722736">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592808722736" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1592207778539">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1592207778539" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592814497788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592814497788" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1591282919176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1591282919176" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1592733814377">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1592733814377" />
+    <state x="359" y="97" width="647" height="534" key="find.popup" timestamp="1591091762969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="359" y="97" width="647" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591091762969" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1591873535469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1591873535469" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592207848372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1592207848372" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/controller/TestMapperController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/exception/WebExceptionHandler.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/exception/WebExceptionHandler.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/controller/RestTestController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/controller/RestTestController.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/controller/RestTestController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/WorkInvocationHandler.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/shop/CglibApp.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/Message.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/SubjectFacadeCglib.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shop/src/main/java/com/dongdong/service/impl/RealSubject.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$/shop-provider-api" />
+    <option value="install" />
+    <option value="clean package" />
+  </component>
+</project>
