@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  *
  //@AllArgsConstructor  包含所有参数的构造函数---lombok
@@ -17,7 +19,7 @@ import lombok.Data;
 @Data
 @Builder    //创建构造器
 @AllArgsConstructor
-public class Employee {
+public class Employee implements Serializable {//redis保存对象的时候要求对象是序列化的
     private int id;
     private String last_name;
     private String gender;

@@ -1,6 +1,7 @@
 package com.dongdong.mapper;
 
 import com.dongdong.entity.Employee;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
