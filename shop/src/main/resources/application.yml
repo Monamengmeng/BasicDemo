@@ -3,6 +3,18 @@ server:
   servlet-path: /shop
 
 spring:
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:   #启动的时候加入配置，redis-server.exe  redis.windows.conf，才会加载密码配置等信息
+    pool:
+      max-active: 8
+      max-wait: -1
+      max-idle: 8
+      min-idle: 0
+    timeout: 1200
+
   datasource:
     druid:
       one:
