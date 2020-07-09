@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @ControllerAdvice
 public class WebExceptionHandler {
-
     @ExceptionHandler(CustomException.class)
     @ResponseBody
     public AjaxResponse customeExcetion(CustomException e) {
@@ -40,16 +39,9 @@ public class WebExceptionHandler {
 //            return AjaxResponse.error(new CustomException(ExceptionType.OTHER_ERROR,"未知异常"));
 //        }
 
-
         //没有被程序员发现，并转换为CustomException的异常，都是其它异常或者未知异常
         return AjaxResponse.error(new CustomException(ExceptionType.OTHER_ERROR));
 
-
-
-
-
     }
-
-
 
 }
